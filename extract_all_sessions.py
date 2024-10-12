@@ -33,6 +33,7 @@ for i in range(50):
     for item in items:
         times = item.get('times', [{}])[0]
         all_items.append({
+            "type": item.get('type', 'N/A'),
             "title": item.get('title', 'N/A'),
             "abstract": item.get('abstract', 'N/A'),
             "date": times.get('date', 'N/A'),
@@ -44,7 +45,7 @@ for i in range(50):
 # Create the CSV file
 csv_file = 'all_sessions_filtered.csv'
 with open(csv_file, mode='w', newline='') as file:
-    writer = csv.DictWriter(file, fieldnames=["title", "abstract", "date", "startTime", "endTime", "room"])
+    writer = csv.DictWriter(file, fieldnames=["type","title", "abstract", "date", "startTime", "endTime", "room"])
     writer.writeheader()
     for session in all_items:
         writer.writerow(session)
