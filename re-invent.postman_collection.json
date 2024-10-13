@@ -1,0 +1,531 @@
+{
+	"info": {
+		"_postman_id": "6113f92a-8f72-4d3a-ac5a-bece124a9878",
+		"name": "re:invent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1992915"
+	},
+	"item": [
+		{
+			"name": "https://catalog.awsevents.com/api/search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*",
+						"disabled": true
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9",
+						"disabled": true
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "cookie",
+						"value": "s_fid=271A24F28E229B59-3976A6B68B952990; rfjwt=556fae35eeea46cda5bf17f019e55cae; at_check=true; mboxEdgeCluster=35; mbox=session#63813ffd3d9e4a8e99bbfa342f81ecc8#1728746274|PC#63813ffd3d9e4a8e99bbfa342f81ecc8.35_0#1791989214; s_sq=awsamazonallprod1%252Cawsamazonallprodcopy1%252Cawsamazonallprodcopy2%3D%2526pid%253Dhttps%25253A%25252F%25252Fregistration.awsevents.com%25252Fflow%25252Fawsevents%25252Freinvent24%25252Freg%25252Flogin%2526oid%253DLOG%252520IN%2526oidt%253D3%2526ot%253DSUBMIT; 1586783053443001TvYm=1728744429059001QP9u",
+						"disabled": true
+					},
+					{
+						"key": "dnt",
+						"value": "1",
+						"disabled": true
+					},
+					{
+						"key": "origin",
+						"value": "https://registration.awsevents.com",
+						"disabled": true
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i",
+						"disabled": true
+					},
+					{
+						"key": "referer",
+						"value": "https://registration.awsevents.com/",
+						"disabled": true
+					},
+					{
+						"key": "rfapiprofileid",
+						"value": "3ol5ZxLLv8O462NxA19WthWuAzT7Ud9o"
+					},
+					{
+						"key": "rfauthtoken",
+						"value": "556fae35eeea46cda5bf17f019e55cae",
+						"disabled": true
+					},
+					{
+						"key": "rfwidgetid",
+						"value": "6cHDakKl9iNKRHF2xElhSV3rKWfhcc1W",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "type=session&browserTimezone=America%2FChicago&catalogDisplay=list&from=0"
+				},
+				"url": {
+					"raw": "https://catalog.awsevents.com/api/search",
+					"protocol": "https",
+					"host": [
+						"catalog",
+						"awsevents",
+						"com"
+					],
+					"path": [
+						"api",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://catalog.awsevents.com/api/search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*",
+						"disabled": true
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9",
+						"disabled": true
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "cookie",
+						"value": "s_fid=271A24F28E229B59-3976A6B68B952990; rfjwt=556fae35eeea46cda5bf17f019e55cae; at_check=true; mbox=session#63813ffd3d9e4a8e99bbfa342f81ecc8#1728746679|PC#63813ffd3d9e4a8e99bbfa342f81ecc8.35_0#1791989619; awsccc=eyJlIjoxLCJwIjoxLCJmIjoxLCJhIjoxLCJjY2JhIjoxLCJpIjoiY2NiMTY5NTQtNWQ5ZS00NDZlLTk3YmUtMzk4OTNmYWY3MzQyIiwidiI6IjEifQ==; AMCVS_7742037254C95E840A4C98A6%40AdobeOrg=1; s_cc=true; AMCV_7742037254C95E840A4C98A6%40AdobeOrg=1585540135%7CMCIDTS%7C20009%7CMCMID%7C39818326741262461083315851574915033190%7CMCAAMLH-1729349619%7C9%7CMCAAMB-1729349619%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1728752020s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0; _mkto_trk=id:112-TZM-766&token:_mch-awsevents.com-1728744820128-36164; 1586783053443001TvYm=1728760109734001xGq0; s_sq=%5B%5BB%5D%5D; awsd2c-token-c=eyJraWQiOiIzYzNhMzRlNC1lZWE3LTRlNmItOGY1My05ZDRlOWY3MjU1NDgiLCJ0eXAiOiJjb20uYXdzLmFtYXpvbi5kMmMudnMrSldUIiwiYWxnIjoiUlMyNTYifQ.eyJ2aWQiOiJkOGM4YzM3NS1kOTI2LTYwODItZGE2YS1iNTE4MWZjYzM0NGMiLCJpc3MiOiJodHRwczpcL1wvdnMuYXdzLmFtYXpvbi5jb20iLCJtaWQiOiIzOTgxODMyNjc0MTI2MjQ2MTA4MzMxNTg1MTU3NDkxNTAzMzE5MCIsImV4cCI6MTcyODc2MTQyOSwiaWF0IjoxNzI4NzYwODI5fQ.aI7qeirJUuAXSAbXuIicxkb6dcgozm_tEf2YGmeD-pUusQNMQhHDtohMikNP06iwjMBs1U36W6wMTtuGn3YEY_QHTMm9Qr7U9cwxOV6S5BXcNZ088_THhHCsE82p8Kke43go0fghobyWXQh0bIFxtf-nvt7fSzscIC1n30Bdndo356VEh6mJIB6A09LpbD3wnOLsMfIDXfDYW74T0PV4M7U0ry8ldJGTMBM0Hjt4LqqIf7_M0MrOxzUMHkBc_WY_TMlLzXsoqzYuvYR7KBpCR7jkuvnVy1C1OeKGuhte3SvxHGf2WH80a-k8Wk2uWnpUjoavQ8Q35ASdQdqj4XAquw",
+						"disabled": true
+					},
+					{
+						"key": "dnt",
+						"value": "1",
+						"disabled": true
+					},
+					{
+						"key": "origin",
+						"value": "https://registration.awsevents.com",
+						"disabled": true
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i",
+						"disabled": true
+					},
+					{
+						"key": "referer",
+						"value": "https://registration.awsevents.com/",
+						"disabled": true
+					},
+					{
+						"key": "rfapiprofileid",
+						"value": "3ol5ZxLLv8O462NxA19WthWuAzT7Ud9o"
+					},
+					{
+						"key": "rfauthtoken",
+						"value": "556fae35eeea46cda5bf17f019e55cae"
+					},
+					{
+						"key": "rfwidgetid",
+						"value": "6cHDakKl9iNKRHF2xElhSV3rKWfhcc1W",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "showMyInterest=true&type=session&browserTimezone=America%2FChicago&catalogDisplay=list&from=0"
+				},
+				"url": {
+					"raw": "https://catalog.awsevents.com/api/search",
+					"protocol": "https",
+					"host": [
+						"catalog",
+						"awsevents",
+						"com"
+					],
+					"path": [
+						"api",
+						"search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://catalog.awsevents.com/api/addSession",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "cookie",
+						"value": "s_fid=271A24F28E229B59-3976A6B68B952990; rfjwt=556fae35eeea46cda5bf17f019e55cae; at_check=true; mbox=session#63813ffd3d9e4a8e99bbfa342f81ecc8#1728746679|PC#63813ffd3d9e4a8e99bbfa342f81ecc8.35_0#1791989619; awsccc=eyJlIjoxLCJwIjoxLCJmIjoxLCJhIjoxLCJjY2JhIjoxLCJpIjoiY2NiMTY5NTQtNWQ5ZS00NDZlLTk3YmUtMzk4OTNmYWY3MzQyIiwidiI6IjEifQ==; AMCVS_7742037254C95E840A4C98A6%40AdobeOrg=1; s_cc=true; AMCV_7742037254C95E840A4C98A6%40AdobeOrg=1585540135%7CMCIDTS%7C20009%7CMCMID%7C39818326741262461083315851574915033190%7CMCAAMLH-1729349619%7C9%7CMCAAMB-1729349619%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1728752020s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0; _mkto_trk=id:112-TZM-766&token:_mch-awsevents.com-1728744820128-36164; awsd2c-token-c=eyJraWQiOiIzYzNhMzRlNC1lZWE3LTRlNmItOGY1My05ZDRlOWY3MjU1NDgiLCJ0eXAiOiJjb20uYXdzLmFtYXpvbi5kMmMudnMrSldUIiwiYWxnIjoiUlMyNTYifQ.eyJ2aWQiOiJkOGM4YzM3NS1kOTI2LTYwODItZGE2YS1iNTE4MWZjYzM0NGMiLCJpc3MiOiJodHRwczpcL1wvdnMuYXdzLmFtYXpvbi5jb20iLCJtaWQiOiIzOTgxODMyNjc0MTI2MjQ2MTA4MzMxNTg1MTU3NDkxNTAzMzE5MCIsImV4cCI6MTcyODgyNzgwNCwiaWF0IjoxNzI4ODI3MjA0fQ.Q-YprX0EqSfwxMFkaWQw8MZKNUUhUOS5buS7BuhmLdHE45dX51jE1h_7jopHD0oJQu0SXWFHwtw68IUL4VfOfd0RtBL0sFtHR_T9dJ6K5VcBl4240akhtCBohUQ0puh7kC0C8agbK89GfzTqCeZUXaiuSG5V8vovBKKDLiI6YbDwsQY6J9HEpYEKDYYtM5TXhD2RE7hhSiBPUS2-uiIGItLITSq_EEqdLpxahGn17OuwXhEn1MfN8S6cnkwaSGQsSRmVqu-fIUDEfTlqbaRcLbc2WptGiBnFbtDXcASTY_gfOsN6UB5o0GCycxE-xQUtjdwaviyV8SlHrbfcshOJaA; s_sq=awsamazonallprod1%252Cawsamazonallprodcopy1%252Cawsamazonallprodcopy2%3D%2526pid%253Dregistration.awsevents.com%25252Fflow%25252Fawsevents%25252Freinvent24%25252Fsessioncatalog%25252Fpage%25252Fpage%2526pidt%253D1%2526oid%253Dfunctionxr%252528%252529%25257B%25257D%2526oidt%253D2%2526ot%253DDIV"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "origin",
+						"value": "https://registration.awsevents.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://registration.awsevents.com/"
+					},
+					{
+						"key": "rfapiprofileid",
+						"value": "3ol5ZxLLv8O462NxA19WthWuAzT7Ud9o"
+					},
+					{
+						"key": "rfauthtoken",
+						"value": "556fae35eeea46cda5bf17f019e55cae"
+					},
+					{
+						"key": "rfwidgetid",
+						"value": "6cHDakKl9iNKRHF2xElhSV3rKWfhcc1W"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "sessionId=1727710410173001oC5k&sessionTimeId=1727711627497001VKTa&waitlist=false&wasRecommended=false&virtual=false"
+				},
+				"url": {
+					"raw": "https://catalog.awsevents.com/api/addSession",
+					"protocol": "https",
+					"host": [
+						"catalog",
+						"awsevents",
+						"com"
+					],
+					"path": [
+						"api",
+						"addSession"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://catalog.awsevents.com/api/dropSwapSession",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "cookie",
+						"value": "s_fid=271A24F28E229B59-3976A6B68B952990; rfjwt=556fae35eeea46cda5bf17f019e55cae; at_check=true; mbox=session#63813ffd3d9e4a8e99bbfa342f81ecc8#1728746679|PC#63813ffd3d9e4a8e99bbfa342f81ecc8.35_0#1791989619; AMCVS_7742037254C95E840A4C98A6%40AdobeOrg=1; s_cc=true; AMCV_7742037254C95E840A4C98A6%40AdobeOrg=1585540135%7CMCIDTS%7C20009%7CMCMID%7C39818326741262461083315851574915033190%7CMCAAMLH-1729349619%7C9%7CMCAAMB-1729349619%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1728752020s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0; _mkto_trk=id:112-TZM-766&token:_mch-awsevents.com-1728744820128-36164; awsd2c-token-c=eyJraWQiOiIzYzNhMzRlNC1lZWE3LTRlNmItOGY1My05ZDRlOWY3MjU1NDgiLCJ0eXAiOiJjb20uYXdzLmFtYXpvbi5kMmMudnMrSldUIiwiYWxnIjoiUlMyNTYifQ.eyJ2aWQiOiJkOGM4YzM3NS1kOTI2LTYwODItZGE2YS1iNTE4MWZjYzM0NGMiLCJpc3MiOiJodHRwczpcL1wvdnMuYXdzLmFtYXpvbi5jb20iLCJtaWQiOiIzOTgxODMyNjc0MTI2MjQ2MTA4MzMxNTg1MTU3NDkxNTAzMzE5MCIsImV4cCI6MTcyODgyNzgwNCwiaWF0IjoxNzI4ODI3MjA0fQ.Q-YprX0EqSfwxMFkaWQw8MZKNUUhUOS5buS7BuhmLdHE45dX51jE1h_7jopHD0oJQu0SXWFHwtw68IUL4VfOfd0RtBL0sFtHR_T9dJ6K5VcBl4240akhtCBohUQ0puh7kC0C8agbK89GfzTqCeZUXaiuSG5V8vovBKKDLiI6YbDwsQY6J9HEpYEKDYYtM5TXhD2RE7hhSiBPUS2-uiIGItLITSq_EEqdLpxahGn17OuwXhEn1MfN8S6cnkwaSGQsSRmVqu-fIUDEfTlqbaRcLbc2WptGiBnFbtDXcASTY_gfOsN6UB5o0GCycxE-xQUtjdwaviyV8SlHrbfcshOJaA; 1586783053443001TvYm=1728841085092001GJaM; s_sq=awsamazonallprod1%252Cawsamazonallprodcopy1%252Cawsamazonallprodcopy2%3D%2526pid%253Dhttps%25253A%25252F%25252Fregistration.awsevents.com%25252Fflow%25252Fawsevents%25252Freinvent24%25252Fsessioncatalog%25252Fpage%25252Fpage%2526oid%253Dfunctionxr%252528%252529%25257B%25257D%2526oidt%253D2%2526ot%253DBUTTON"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "origin",
+						"value": "https://registration.awsevents.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://registration.awsevents.com/"
+					},
+					{
+						"key": "rfapiprofileid",
+						"value": "3ol5ZxLLv8O462NxA19WthWuAzT7Ud9o"
+					},
+					{
+						"key": "rfauthtoken",
+						"value": "556fae35eeea46cda5bf17f019e55cae"
+					},
+					{
+						"key": "rfwidgetid",
+						"value": "6cHDakKl9iNKRHF2xElhSV3rKWfhcc1W"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "sessionId=1725389027774001ujzh&sessionTimeId=1727711747936001VD4l&dropSessionItems=[{\"dropSessionId\":\"1727710384928001of5W\",\"dropSessionTimeId\":\"1727711629483001V6sZ\",\"dropWaitlist\":false,\"sessionID\":\"1727710384928001of5W\",\"recommended\":false}]&waitlist=false&virtual=false&wasRecommended=false"
+				},
+				"url": {
+					"raw": "https://catalog.awsevents.com/api/dropSwapSession",
+					"protocol": "https",
+					"host": [
+						"catalog",
+						"awsevents",
+						"com"
+					],
+					"path": [
+						"api",
+						"dropSwapSession"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://catalog.awsevents.com/api/toggleSessionInterest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					},
+					{
+						"key": "cookie",
+						"value": "s_fid=271A24F28E229B59-3976A6B68B952990; rfjwt=556fae35eeea46cda5bf17f019e55cae; at_check=true; mbox=session#63813ffd3d9e4a8e99bbfa342f81ecc8#1728746679|PC#63813ffd3d9e4a8e99bbfa342f81ecc8.35_0#1791989619; AMCVS_7742037254C95E840A4C98A6%40AdobeOrg=1; s_cc=true; AMCV_7742037254C95E840A4C98A6%40AdobeOrg=1585540135%7CMCIDTS%7C20009%7CMCMID%7C39818326741262461083315851574915033190%7CMCAAMLH-1729349619%7C9%7CMCAAMB-1729349619%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1728752020s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0; _mkto_trk=id:112-TZM-766&token:_mch-awsevents.com-1728744820128-36164; awsd2c-token-c=eyJraWQiOiIzYzNhMzRlNC1lZWE3LTRlNmItOGY1My05ZDRlOWY3MjU1NDgiLCJ0eXAiOiJjb20uYXdzLmFtYXpvbi5kMmMudnMrSldUIiwiYWxnIjoiUlMyNTYifQ.eyJ2aWQiOiJkOGM4YzM3NS1kOTI2LTYwODItZGE2YS1iNTE4MWZjYzM0NGMiLCJpc3MiOiJodHRwczpcL1wvdnMuYXdzLmFtYXpvbi5jb20iLCJtaWQiOiIzOTgxODMyNjc0MTI2MjQ2MTA4MzMxNTg1MTU3NDkxNTAzMzE5MCIsImV4cCI6MTcyODgyNzgwNCwiaWF0IjoxNzI4ODI3MjA0fQ.Q-YprX0EqSfwxMFkaWQw8MZKNUUhUOS5buS7BuhmLdHE45dX51jE1h_7jopHD0oJQu0SXWFHwtw68IUL4VfOfd0RtBL0sFtHR_T9dJ6K5VcBl4240akhtCBohUQ0puh7kC0C8agbK89GfzTqCeZUXaiuSG5V8vovBKKDLiI6YbDwsQY6J9HEpYEKDYYtM5TXhD2RE7hhSiBPUS2-uiIGItLITSq_EEqdLpxahGn17OuwXhEn1MfN8S6cnkwaSGQsSRmVqu-fIUDEfTlqbaRcLbc2WptGiBnFbtDXcASTY_gfOsN6UB5o0GCycxE-xQUtjdwaviyV8SlHrbfcshOJaA; 1586783053443001TvYm=1728841085092001GJaM; s_sq=awsamazonallprod1%252Cawsamazonallprodcopy1%252Cawsamazonallprodcopy2%3D%2526pid%253Dhttps%25253A%25252F%25252Fregistration.awsevents.com%25252Fflow%25252Fawsevents%25252Freinvent24%25252Fsessioncatalog%25252Fpage%25252Fpage%2526oid%253Dfunctionxr%252528%252529%25257B%25257D%2526oidt%253D2%2526ot%253DBUTTON"
+					},
+					{
+						"key": "dnt",
+						"value": "1"
+					},
+					{
+						"key": "origin",
+						"value": "https://registration.awsevents.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://registration.awsevents.com/"
+					},
+					{
+						"key": "rfapiprofileid",
+						"value": "3ol5ZxLLv8O462NxA19WthWuAzT7Ud9o"
+					},
+					{
+						"key": "rfauthtoken",
+						"value": "556fae35eeea46cda5bf17f019e55cae"
+					},
+					{
+						"key": "rfwidgetid",
+						"value": "6cHDakKl9iNKRHF2xElhSV3rKWfhcc1W"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "sessionId=1727710388816001oaDz&ratingValue=false&wasRecommended=false"
+				},
+				"url": {
+					"raw": "https://catalog.awsevents.com/api/toggleSessionInterest",
+					"protocol": "https",
+					"host": [
+						"catalog",
+						"awsevents",
+						"com"
+					],
+					"path": [
+						"api",
+						"toggleSessionInterest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
