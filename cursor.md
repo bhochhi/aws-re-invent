@@ -41,3 +41,30 @@ Key Insights:
 5. Builders' sessions and Workshops are distributed fairly evenly across the main conference days
 
 Note: Some sessions might be missing venue information or have special locations (like Expo areas) that weren't counted in the venue-specific totals.
+
+
+
+**Sessions Specifically Mentioning Conversational AI Agents:**
+
+1. **Breakout session**: "Tool use & agents at the frontier: Advanced techniques for LLM actions"
+   - Date: Dec 4th
+   - Venue: Wynn
+   - Focus: Advanced techniques for Claude models in Amazon Bedrock for agent development
+
+2. **Builders' Fair**: "Mobile robot teleoperation with interactive instruction feature"
+   - Date: Dec 4th & 5th
+   - Venue: Venetian | Level 2 | Hall B | Expo
+   - Focus: Uses Amazon Bedrock Agents for natural language interaction with robots
+
+**Related AI/Chatbot Sessions (though not specifically mentioning agents):**
+
+1. **Workshop**: "Amazon Bedrock Agents: Revolutionize data analysis & customer service"
+   - Date: Dec 5th, 15:30-17:30
+   - Venue: Wynn | Upper Convention Promenade | Cristal 3
+   - Focus: Building agent-based generative AI applications using Amazon Bedrock Agents and Knowledge Bases
+
+2. **Workshop**: "Elevate contact center performance with AI-driven agent coaching"
+   - Date: Dec 4th, 09:00-11:00
+   - Venue: Caesars Forum
+   - Focus: Using Amazon Connect and generative AI for contact center improvements
+
