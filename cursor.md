@@ -165,3 +165,87 @@ Tips for Attendees:
 2. Consider alternate routes between venues during peak times
 3. Book sessions in the same venue for consecutive time slots when possible
 4. Allow extra time for venue transitions during high-traffic periods
+
+
+
+
+
+
+Here's a breakdown of each session type and what to expect:
+
+| Session Type | Duration | Description | Interaction Level | Preparation Needed |
+|-------------|----------|-------------|-------------------|-------------------|
+| **Keynote** | 2-2.5 hrs | - Major AWS announcements and launches<br>- Strategic vision presentations<br>- Customer success stories<br>- Live demonstrations<br>- Hosted by AWS executives | Low (Large audience) | None - Just attend |
+| **Breakout Session** | 1 hr | - Deep dive into specific topics<br>- Technical overviews<br>- Best practices<br>- Customer case studies<br>- Q&A at end | Medium | Optional note-taking |
+| **Workshop** | 2 hrs | - Hands-on practical exercises<br>- Guided technical implementation<br>- Working with AWS services directly<br>- Step-by-step instructions | High | Bring laptop<br>AWS account access |
+| **Chalk Talk** | 1 hr | - Small group discussions<br>- Whiteboarding sessions<br>- Interactive problem-solving<br>- Architecture discussions<br>- Direct Q&A with experts | Very High | Basic knowledge of topic |
+| **Builders' Session** | 1 hr | - Small group (≈15 people)<br>- Hands-on coding or building<br>- Expert guidance<br>- Specific technical challenges | Very High | Bring laptop<br>Technical prerequisites |
+| **Builders' Fair** | All day | - Interactive demos<br>- Hands-on experimentation<br>- Innovative AWS implementations<br>- Direct interaction with builders | High | None - Drop in anytime |
+| **Code Talk** | 1 hr | - Live coding demonstrations<br>- Technical implementation details<br>- Best practices in action<br>- Code walkthrough | Medium | Technical background helpful |
+| **Bootcamp** | Full day | - Intensive technical training<br>- Comprehensive topic coverage<br>- Multiple hands-on exercises<br>- Expert instruction | Very High | Bring laptop<br>Prerequisites required |
+| **Interactive Training** | 1.5 hrs | - Guided hands-on labs<br>- Specific skill development<br>- Practice exercises<br>- Immediate feedback | High | Bring laptop |
+| **Exam Prep** | 1.5 hrs | - Certification exam preparation<br>- Practice questions<br>- Study strategies<br>- Expert tips | Medium | Basic AWS knowledge |
+| **Self-Paced Training** | Flexible | - Individual learning<br>- Lab environments<br>- AWS Skill Builder content<br>- Work at your own pace | Self-directed | None |
+| **Community Activities** | Varies | - Networking opportunities<br>- Interactive experiences<br>- Community engagement<br>- Social learning | High | None |
+
+Tips for Session Selection:
+1. **For Beginners:**
+   - Start with Breakout Sessions
+   - Attend Chalk Talks for basic topics
+   - Visit Builder's Fair for inspiration
+
+2. **For Intermediate:**
+   - Mix Workshops and Builders' Sessions
+   - Attend Code Talks
+   - Participate in Interactive Training
+
+3. **For Advanced:**
+   - Focus on Bootcamps
+   - Attend technical Chalk Talks
+   - Participate in advanced Builders' Sessions
+
+4. **For Certification Goals:**
+   - Attend Exam Prep sessions
+   - Use Self-Paced Training
+   - Participate in relevant Workshops
+
+
+
+
+
+Yes! I found 3 sessions specifically focused on Terraform:
+
+1. **Breakout session**: "Accelerate serverless deployments using Terraform with proven patterns"
+   - Date: Dec 2nd, 12:00-13:00
+   - Venue: Venetian | Level 3 | Lido 3002
+   - Key Topics:
+     - Best practices for serverless with Terraform
+     - Modular, reusable architectures
+     - Testing applications locally
+     - Managing team ownership
+     - Open source frameworks
+
+2. **Chalk talk**: "Unleashing AWS agility with Terraform" [REPEAT]
+   - Date: Dec 2nd, 15:00-16:00
+   - Venue: MGM | Level 1 | Boulevard 169
+   - Key Topics:
+     - Infrastructure provisioning streamlining
+     - Human-readable configuration files
+     - Terraform modules for code reuse
+     - Structuring Terraform codebase
+     - Collaboration and standardization
+
+3. **Workshop**: "Building serverless applications using Terraform"
+   - Date: Dec 2nd, 15:00-17:00
+   - Venue: Mandalay Bay | Level 2 South | Lagoon F
+   - Key Topics:
+     - Streamlining serverless development
+     - Best practices
+     - Automation tips
+     - Integration strategies
+     - Hands-on practice
+
+**Note**: All Terraform sessions are on December 2nd, so if you're interested in Terraform, that would be the key day to focus on. You could potentially attend all three sessions as they don't overlap in timing:
+1. 12:00-13:00 - Breakout session
+2. 15:00-16:00 - Chalk talk
+3. 15:00-17:00 - Workshop (though this overlaps with the Chalk talk)
