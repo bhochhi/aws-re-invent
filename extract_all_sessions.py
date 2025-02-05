@@ -5,8 +5,8 @@ import csv
 url = 'https://catalog.awsevents.com/api/search'
 headers = {
     'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    'rfauthtoken':'556fae35eeea46cda5bf17f019e55cae',
-    'rfapiprofileid': '3ol5ZxLLv8O462NxA19WthWuAzT7Ud9o'
+    'rfauthtoken':'{{rfauthtoken}}',
+    'rfapiprofileid': '{{rfapiprofileid}}'
 }
 params_template = 'type=session&browserTimezone=America%2FChicago&catalogDisplay=list&from={}'
 

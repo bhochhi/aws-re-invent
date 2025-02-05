@@ -249,3 +249,114 @@ Yes! I found 3 sessions specifically focused on Terraform:
 1. 12:00-13:00 - Breakout session
 2. 15:00-16:00 - Chalk talk
 3. 15:00-17:00 - Workshop (though this overlaps with the Chalk talk)
+
+
+
+
+
+
+Here's a revised schedule that fills your day from morning to evening while limiting venue changes to at most two per day:
+
+**December 2nd (Monday) - Focus on Serverless & AI @ Mandalay Bay**
+- **Mandalay Bay**:
+  - **08:30-09:30**: Breakout - "Accelerate application maintenance and upgrades with generative AI"
+    - Venue: Mandalay Bay | Level 2 South | Oceanside B
+  - **10:30-11:30**: Breakout - "Accelerate database performance and scalability with AWS storage"
+    - Venue: Mandalay Bay | Level 2 South | Mandalay Bay Ballroom L
+  - **12:00-13:00**: Breakout - "Accelerate app migration: From legacy to production"
+    - Venue: Mandalay Bay | Level 2 South | Oceanside B
+  - **14:30-15:30**: Builders' Session - "Accelerate FM pre-training on Amazon SageMaker HyperPod"
+    - Venue: Mandalay Bay | Level 2 South | Surf B
+  - **16:30-17:30**: Breakout - "What’s new with Amazon EBS"
+    - Venue: Mandalay Bay | Level 2 South | Mandalay Bay Ballroom L
+
+**December 3rd (Tuesday) - AI/ML & Serverless @ Mandalay Bay and Wynn**
+- **Mandalay Bay**:
+  - **08:30-09:30**: Breakout - "Accelerate innovation with generative AI and no-code machine learning"
+    - Venue: Mandalay Bay | Level 2 South | Mandalay Bay Ballroom L
+  - **11:30-13:30**: Workshop - "Accelerate development with AWS Lambda Powertools for serverless APIs"
+    - Venue: Mandalay Bay | Level 2 South | Oceanside A
+
+- **Wynn**:
+  - **15:30-17:30**: Workshop - "Adapting LLMs for domain-aware applications"
+    - Venue: Wynn | Convention Promenade | Margaux 2
+
+**December 4th (Wednesday) - Advanced AI & Agents @ Wynn**
+- **Wynn**:
+  - **08:30-09:30**: Chalk Talk - "Accelerate frontend delivery with AWS Amplify Hosting"
+    - Venue: Wynn | Convention Promenade | Latour 7
+  - **10:00-11:00**: Chalk Talk - "Your mission and the terrible, horrible, no good, very bad day"
+    - Venue: Wynn | Convention Promenade | Lafite 1
+  - **12:00-13:00**: Breakout - "Working with UDFs in Amazon Redshift and Amazon Athena"
+    - Venue: Wynn | Convention Promenade | Lafite 2
+  - **16:30-17:30**: Breakout - "Tool use & agents at the frontier: Advanced techniques for LLM actions"
+    - Venue: Wynn
+
+**December 5th (Thursday) - Bedrock & Practical AI @ Wynn**
+- **Wynn**:
+  - **08:30-09:30**: Builders' Session - "Zero to SaaS in one hour"
+    - Venue: Wynn | Convention Promenade | Latour 7
+  - **11:00-12:00**: Chalk Talk - "Using the baked data pattern for efficient and reliable applications"
+    - Venue: Wynn | Convention Promenade | Latour 7
+  - **13:00-14:00**: Breakout - "Accelerate healthcare innovation: TriZetto's data-powered approach"
+    - Venue: Wynn | Convention Promenade | Latour 2
+  - **15:30-17:30**: Workshop - "Amazon Bedrock Agents: Revolutionize data analysis & customer service"
+    - Venue: Wynn | Upper Convention Promenade | Cristal 3
+
+
+
+
+
+
+
+Let's adjust the schedule to include sessions at Caesars Forum and Venetian, while still limiting venue changes to at most two per day:
+
+**December 2nd (Monday) - Focus on Serverless & AI @ Venetian and Mandalay Bay**
+- **Venetian**:
+  - **09:00-10:00**: Breakout - "Accelerate serverless deployments using Terraform"
+    - Venue: Venetian | Level 3 | Lido 3002
+  - **12:30-12:50**: Lightning Talk - "Accelerate business and mission outcomes with AWS Government Regions"
+    - Venue: Venetian | Hall B | Expo | Theater 2
+
+- **Mandalay Bay**:
+  - **14:30-15:30**: Builders' Session - "Accelerate FM pre-training on Amazon SageMaker HyperPod"
+    - Venue: Mandalay Bay | Level 2 South | Surf B
+  - **16:30-17:30**: Breakout - "What’s new with Amazon EBS"
+    - Venue: Mandalay Bay | Level 2 South | Mandalay Bay Ballroom L
+
+**December 3rd (Tuesday) - AI/ML & Serverless @ Caesars Forum and Mandalay Bay**
+- **Caesars Forum**:
+  - **09:00-10:00**: Breakout - "Accelerate from monolith to modern developer platform with gen AI"
+    - Venue: Caesars Forum | Level 1 | Alliance 311
+  - **12:00-13:00**: Builders' Session - "Vector search with Amazon OpenSearch Service"
+    - Venue: Caesars Forum | Level 1 | Lafite 4 | Content Hub | Builder's 1
+
+- **Mandalay Bay**:
+  - **16:30-18:30**: Workshop - "Visualize and optimize cloud cost efficiency"
+    - Venue: Mandalay Bay | Lower Level North | South Pacific F
+
+**December 4th (Wednesday) - Advanced AI & Agents @ Wynn and Venetian**
+- **Wynn**:
+  - **08:30-09:30**: Builders' Session - "Zero to SaaS in one hour"
+    - Venue: Wynn | Convention Promenade | Latour 7
+  - **10:00-11:00**: Chalk Talk - "Your mission and the terrible, horrible, no good, very bad day"
+    - Venue: Wynn | Convention Promenade | Lafite 1
+
+- **Venetian**:
+  - **13:30-13:50**: Lightning Talk - "Wired differently: Generative AI for neurodiversity"
+    - Venue: Venetian | Hall B | Expo | Theater 5
+  - **17:00-17:20**: Dev Chat - "Zero to production serverless in 8 weeks"
+    - Venue: Venetian | Hall B | Expo | Theater 3
+
+**December 5th (Thursday) - Bedrock & Practical AI @ Caesars Forum and Wynn**
+- **Caesars Forum**:
+  - **11:00-12:00**: Chalk Talk - "Accelerate healthcare innovation with real-world data and evidence"
+    - Venue: Caesars Forum | Level 1 | Academy 414
+  - **14:00-15:00**: Builders' Session - "Accelerated hands-on recipes for building strong cloud foundations"
+    - Venue: Caesars Forum | Level 1 | Alliance 315
+
+- **Wynn**:
+  - **15:30-17:30**: Workshop - "Amazon Bedrock Agents: Revolutionize data analysis & customer service"
+    - Venue: Wynn | Upper Convention Promenade | Cristal 3
+
+This schedule now includes sessions at Caesars Forum and Venetian, ensuring a diverse range of topics and venues each day. Let me know if you need further adjustments!
